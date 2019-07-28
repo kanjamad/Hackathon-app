@@ -1,0 +1,803 @@
+
+@font-face {
+                          font-family: "SFProText-Regular";
+                          src: url('../fonts/SF-Pro-Text-Regular.otf') format("opentype");
+                        }
+                        
+.nueinterest {
+  width               : 100%;
+  min-width           : 375px;
+  height              : 100vh;
+  min-height          : 812px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(255, 255, 255, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.anima-full-width-a {
+  width               : 100%;
+}
+.anima-full-height-a {
+  height              : 100%;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.nueinterest .bg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 812px;
+  width               : 375px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.nueinterest .backicon {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 60px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 22px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.nueinterest .backicon .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.nueinterest .backicon .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4px;
+  height              : 16px;
+  width               : 19px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.nueinterest .icon {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 40px;
+  height              : 68px;
+  width               : 68px;
+  position            : absolute;
+  margin              : 0;
+  left                : 156px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.nueinterest .icon .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 68px;
+  width               : 68px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.nueinterest .icon .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 19px;
+  height              : 34px;
+  width               : 52px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(-20deg); /* IE 9 */
+  -webkit-transform   : rotate(-20deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-20deg);
+}
+.nueinterest .icon .fill3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : 23px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 40px;
+  -ms-transform       : rotate(-20deg); /* IE 9 */
+  -webkit-transform   : rotate(-20deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-20deg);
+}
+.nueinterest .icon .fill5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 32px;
+  height              : 16px;
+  width               : 27px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  -ms-transform       : rotate(-20deg); /* IE 9 */
+  -webkit-transform   : rotate(-20deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-20deg);
+}
+.nueinterest .icon .fill7 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 32px;
+  height              : 7px;
+  width               : 26px;
+  position            : absolute;
+  margin              : 0;
+  left                : 29px;
+  -ms-transform       : rotate(-20deg); /* IE 9 */
+  -webkit-transform   : rotate(-20deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-20deg);
+}
+.nueinterest .icon .fill9 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 20px;
+  height              : 17px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 41px;
+  -ms-transform       : rotate(-20deg); /* IE 9 */
+  -webkit-transform   : rotate(-20deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-20deg);
+}
+.nueinterest .icon .fill14 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 38px;
+  height              : 2px;
+  width               : 2px;
+  position            : absolute;
+  margin              : 0;
+  left                : 29px;
+  -ms-transform       : rotate(-20deg); /* IE 9 */
+  -webkit-transform   : rotate(-20deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-20deg);
+}
+.nueinterest .oval {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 231px;
+  height              : 72px;
+  width               : 72px;
+  position            : absolute;
+  margin              : 0;
+  left                : 45px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.nueinterest .ovalcopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 231px;
+  height              : 72px;
+  width               : 72px;
+  position            : absolute;
+  margin              : 0;
+  left                : 149px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.nueinterest .ovalcopy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 231px;
+  height              : 72px;
+  width               : 72px;
+  position            : absolute;
+  margin              : 0;
+  left                : 251px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.nueinterest .ovalcopy21 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 231px;
+  height              : 72px;
+  width               : 72px;
+  position            : absolute;
+  margin              : 0;
+  left                : 251px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.nueinterest .ovalcopy6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 502px;
+  height              : 72px;
+  width               : 72px;
+  position            : absolute;
+  margin              : 0;
+  left                : 45px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.nueinterest .ovalcopy7 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 502px;
+  height              : 112px;
+  width               : 112px;
+  position            : absolute;
+  margin              : 0;
+  left                : 128px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.nueinterest .ovalcopy8 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 502px;
+  height              : 72px;
+  width               : 72px;
+  position            : absolute;
+  margin              : 0;
+  left                : 251px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.nueinterest .ovalcopy3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 367px;
+  height              : 112px;
+  width               : 112px;
+  position            : absolute;
+  margin              : 0;
+  left                : 25px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.nueinterest .ovalcopy4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 367px;
+  height              : 72px;
+  width               : 72px;
+  position            : absolute;
+  margin              : 0;
+  left                : 148px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.nueinterest .ovalcopy5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 367px;
+  height              : 72px;
+  width               : 72px;
+  position            : absolute;
+  margin              : 0;
+  left                : 251px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.nueinterest .dancing {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 314px;
+  height              : auto;
+  width               : 57px;
+  position            : absolute;
+  margin              : 0;
+  left                : 49px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(45, 49, 66, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.2px;
+  line-height         : 14.0px;
+}
+.nueinterest .dogs {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 453px;
+  height              : auto;
+  width               : 73px;
+  position            : absolute;
+  margin              : 0;
+  left                : 41px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(45, 49, 66, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.2px;
+  line-height         : 14.0px;
+}
+.nueinterest .sports {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 594px;
+  height              : auto;
+  width               : 73px;
+  position            : absolute;
+  margin              : 0;
+  left                : 44px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(45, 49, 66, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.2px;
+  line-height         : 14.0px;
+}
+.nueinterest .gardening {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 314px;
+  height              : auto;
+  width               : 73px;
+  position            : absolute;
+  margin              : 0;
+  left                : 147px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(45, 49, 66, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.2px;
+  line-height         : 14.0px;
+}
+.nueinterest .smokefree {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 453px;
+  height              : auto;
+  width               : 85px;
+  position            : absolute;
+  margin              : 0;
+  left                : 145px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(45, 49, 66, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.2px;
+  line-height         : 14.0px;
+}
+.nueinterest .food {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 593px;
+  height              : auto;
+  width               : 73px;
+  position            : absolute;
+  margin              : 0;
+  left                : 147px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(45, 49, 66, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.2px;
+  line-height         : 14.0px;
+}
+.nueinterest .meditation {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 315px;
+  height              : auto;
+  width               : 73px;
+  position            : absolute;
+  margin              : 0;
+  left                : 250px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(45, 49, 66, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.2px;
+  line-height         : 14.0px;
+}
+.nueinterest .sleep {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 454px;
+  height              : auto;
+  width               : 73px;
+  position            : absolute;
+  margin              : 0;
+  left                : 250px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(45, 49, 66, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.2px;
+  line-height         : 14.0px;
+}
+.nueinterest .more {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 594px;
+  height              : auto;
+  width               : 73px;
+  position            : absolute;
+  margin              : 0;
+  left                : 250px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "SFProText-Regular", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(45, 49, 66, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.2px;
+  line-height         : 14.0px;
+}
+.nueinterest .ud83dudc83 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 252px;
+  height              : auto;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 68px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "AppleColorEmoji", Helvetica, Arial, serif;
+  font-size           : 32.0px;
+  color               : rgba(45, 49, 66, 1.0);
+  text-align          : center;
+  line-height         : 30.0px;
+}
+.nueinterest .ud83eudd51 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 521px;
+  height              : auto;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 168px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "AppleColorEmoji", Helvetica, Arial, serif;
+  font-size           : 32.0px;
+  color               : rgba(45, 49, 66, 1.0);
+  text-align          : center;
+  line-height         : 30.0px;
+}
+.nueinterest .ud83dudc36 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 387px;
+  height              : auto;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 65px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "AppleColorEmoji", Helvetica, Arial, serif;
+  font-size           : 32.0px;
+  color               : rgba(45, 49, 66, 1.0);
+  text-align          : center;
+  line-height         : 30.0px;
+}
+.nueinterest .ud83dudeac {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 382px;
+  height              : auto;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 170px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "AppleColorEmoji", Helvetica, Arial, serif;
+  font-size           : 32.0px;
+  color               : rgba(45, 49, 66, 1.0);
+  text-align          : center;
+  line-height         : 30.0px;
+}
+.nueinterest .ud83dudecf {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 387px;
+  height              : auto;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 271px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "AppleColorEmoji", Helvetica, Arial, serif;
+  font-size           : 32.0px;
+  color               : rgba(45, 49, 66, 1.0);
+  text-align          : center;
+  line-height         : 30.0px;
+}
+.nueinterest .ud83euddd8ud83cudffdu200du2640ufe0f {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 254px;
+  height              : auto;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 271px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "AppleColorEmoji", Helvetica, Arial, serif;
+  font-size           : 32.0px;
+  color               : rgba(45, 49, 66, 1.0);
+  text-align          : center;
+  line-height         : 30.0px;
+}
+.nueinterest .ud83dudc69ud83cudffcu200dud83cudf3e {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 252px;
+  height              : auto;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 168px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "AppleColorEmoji", Helvetica, Arial, serif;
+  font-size           : 32.0px;
+  color               : rgba(45, 49, 66, 1.0);
+  text-align          : center;
+  line-height         : 30.0px;
+}
+.nueinterest .ud83dude03 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 521px;
+  height              : auto;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 271px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "AppleColorEmoji", Helvetica, Arial, serif;
+  font-size           : 32.0px;
+  color               : rgba(45, 49, 66, 1.0);
+  text-align          : center;
+  line-height         : 30.0px;
+}
+.nueinterest .u26bdufe0f {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 525px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 64px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "AppleColorEmoji", Helvetica, Arial, serif;
+  font-size           : 32.0px;
+  color               : rgba(45, 49, 66, 1.0);
+  text-align          : center;
+  line-height         : 30.0px;
+}
+.nueinterest .whatinterestsyout {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 131px;
+  height              : auto;
+  width               : 231px;
+  position            : absolute;
+  margin              : 0;
+  left                : 72px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(45, 49, 66, 1.0);
+  text-align          : center;
+  line-height         : 30.0px;
+}
+.nueinterest .path3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 800px;
+  height              : 4px;
+  width               : 130px;
+  position            : absolute;
+  margin              : 0;
+  left                : 125px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.5;
+}
+.nueinterest .mainbutton {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 739px;
+  height              : 50px;
+  width               : 331px;
+  position            : absolute;
+  margin              : 0;
+  left                : 22px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.nueinterest .mainbutton .mainbutton1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 50px;
+  width               : 331px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.nueinterest .mainbutton .mainbutton1 .group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 50px;
+  width               : 331px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.nueinterest .mainbutton .mainbutton1 .group .rectangle2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 50px;
+  width               : 331px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 23px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.nueinterest .mainbutton .mainbutton1 .group .continue {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 14px;
+  height              : auto;
+  width               : 152px;
+  position            : absolute;
+  margin              : 0;
+  left                : 90px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Avenir-Medium", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 22.0px;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+
+.continue a{
+  color: rgba(255, 255, 255, 1.0);
+}
+
+.my-img{
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.continue a{
+  color: rgba(255, 255, 255, 1.0);
+}
+
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
