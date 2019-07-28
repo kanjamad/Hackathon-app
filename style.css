@@ -1,27 +1,40 @@
+
+@font-face {
+    font-family: "SFProDisplay-Regular";
+    src: url('../fonts/SF-Pro-Display-Regular.otf') format("opentype");
+}
+@font-face {
+    font-family: "SFProText-Semibold";
+    src: url('../fonts/SF-Pro-Text-Semibold.otf') format("opentype");
+}
+
+
 *{
     margin: 0;
     padding: 0;
 }
 
+body {
+    background-color: rgba(244, 246, 250, 1);
+}
+
 .card-arcticle {
+    font-family: 'SFProDisplay-Regular',Arial, Helvetica, sans-serif;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 375px;
     margin: auto;
-    /* text-align: center; */
     font-family: arial;
     cursor: pointer;
-    padding-bottom: 8px;
-}
+    margin-bottom: 40px;
+} 
 
 
-
-
-a {
-text-decoration: none;
-font-size: 22px;
-color: black;
-}
 
 card-arcticle:hover, a:hover {
 opacity: 0.7;
+}
+
+
+.fa-heart {
+    color: red;
 }
