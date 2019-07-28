@@ -12,6 +12,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'SFProDisplay-Regular',Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -23,7 +24,6 @@ body {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 375px;
     margin: auto;
-    font-family: arial;
     cursor: pointer;
     margin-bottom: 40px;
     border-radius: 15px;
@@ -42,9 +42,27 @@ opacity: 0.7;
 
 .like1 {
     color: grey;
+
 }
 
 .like2 {
     color: red;
 }
 
+
+h5 {
+    font-size: 20px;
+    letter-spacing: 0.25px;
+    color: #2d3142;
+}
+
+p {
+    font-size: 14px;
+    letter-spacing: 0.25px;
+}
+
+h6 {
+    font-size: 14px;
+    letter-spacing: 0.25px;
+    color: #2d3142;
+}

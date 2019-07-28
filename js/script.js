@@ -7,3 +7,4 @@ function classToggle() {
 document.querySelector('#love').addEventListener('click', classToggle);
 document.querySelector('#love2').addEventListener('click', classToggle);
 
+// slide
