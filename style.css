@@ -26,6 +26,11 @@ body {
     font-family: arial;
     cursor: pointer;
     margin-bottom: 40px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
 } 
 
 
@@ -35,6 +40,11 @@ opacity: 0.7;
 }
 
 
-.fa-heart {
+.like1 {
+    color: grey;
+}
+
+.like2 {
     color: red;
 }
+
