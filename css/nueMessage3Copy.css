@@ -325,10 +325,12 @@ div {
   transform           : rotate(0deg);
 }
 .nuemessage3copy .nuevideoclip {
+  min-height          : 750px;
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 92vh;
-  width               : 375px;
+  min-width          : 375px;
+  width               : 100%;
   position            : absolute;
   margin              : 0;
   left                : 0px;
