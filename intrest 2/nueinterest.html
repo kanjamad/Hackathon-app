@@ -112,7 +112,7 @@
         <!-- Scripts -->
         <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="crossorigin="anonymous"></script>
         <script>
-            console.log('connected to Interest.CSS');
+            console.log('connected to Script');
             $(document).ready(function() {
                 $(".my-img").on('click', function() {
                     $(this).css({
@@ -122,6 +122,7 @@
             });
 
 
+            // <!-------Default Scirpt-------------------------------------------------------->
             anima_isHidden = function(e) {
                 if (!(e instanceof HTMLElement)) return !1;
                 if (getComputedStyle(e).display == "none") return !0; else if (e.parentNode && anima_isHidden(e.parentNode)) return !0;
