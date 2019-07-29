@@ -29,6 +29,7 @@ a {
 }
 div {
   -webkit-text-size-adjust: none;
+  overflow: hidden;
 }
 .anima-full-width-a {
   width               : 100%;
@@ -2116,6 +2117,8 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
+
+
 /* .anima-animate-appear prefix for appear animations */
 .anima-animate-appear {
   opacity             : 0;
@@ -2138,6 +2141,9 @@ div {
   -moz-animation-delay: 0;
   -o-animation-delay  : 0;
   animation-delay     : 0;
+}
+
+.mentors-container{
 }
 @-webkit-keyframes anima-reveal {
   0%
