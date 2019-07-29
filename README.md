@@ -3,7 +3,7 @@
 ## Screenshot
 ![screenshot]( https://imgur.com/zFWD7hg.png)
 
-![screenshot]( https://imgur.com/nx89lPA.png)
+![screenshot]( https://imgur.com/TUDJdxC.png)
 ### Technologies used
 * HTML
 * CSS
